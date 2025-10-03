@@ -3,6 +3,8 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
+      RAM_SIZE: "12G"
+      CPU_CORES: "4"
       USERNAME: "admin"
       PASSWORD: "123456"
       VERSION: "11"
