@@ -37,8 +37,7 @@ ADD --chmod=664 https://github.com/qemus/virtiso-arm/releases/download/v0.1.285-
 VOLUME /storage
 EXPOSE 3389 8006
 
-ENV VERSION="https://ia804501.us.archive.org/21/items/windows-11-pro-x-64-bit-iso/windows%2011%20pro%20×64%20bit%20iso.iso
-"
+ENV VERSION="11"
 ENV RAM_SIZE="12G"
 ENV CPU_CORES="4"
 ENV DISK_SIZE="64G"
