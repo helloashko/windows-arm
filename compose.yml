@@ -3,7 +3,6 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      DISK_SIZE: "32G"
       RAM_SIZE: "12G"
       CPU_CORES: "4"
       USERNAME: "admin"
