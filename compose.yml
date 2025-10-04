@@ -7,7 +7,8 @@ services:
       CPU_CORES: "4"
       USERNAME: "admin"
       PASSWORD: "123456"
-      VERSION: "11"
+      VERSION: https://ia804501.us.archive.org/21/items/windows-11-pro-x-64-bit-iso/windows%2011%20pro%20×64%20bit%20iso.iso
+"
     devices:
       - /dev/kvm
       - /dev/net/tun
